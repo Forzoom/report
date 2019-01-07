@@ -1,0 +1,23 @@
+{
+  "name": "@forzoom/report",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build/build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.12.18",
+    "core-js": "^2.6.1",
+    "rollup": "^1.0.1",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "types": "types/index.d.ts"
+}

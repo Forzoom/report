@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "types": [
+            "node",
+            "core-js"
+        ],
+        "lib": [ // 识别基本类型库
+            "esnext",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "types/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
